@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>N of Everything - DOI Index</title>
+</head>
+<body>
+There are currently {{count}} DOIs in the database | Click <a href="/admin/votes/digitalobject/add/">here</a> to create a new DOI
+<ul>
+{% for doi in doi_list %}
+    <li>
+        <a href="{{ doi.doi }}">{{ doi.doi }}</a>
+    </li>
+{% endfor %}
+</ul>
+</body>
+</html>
