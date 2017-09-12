@@ -1,5 +1,5 @@
 # NofEveryoneVotingWidget
-Voting widget developed for NofEveryone.com by Ben Katz <me@bakatz.com>
+Voting widget developed for NofEveryone.com 
 
 Basic requirements:
 * Python==3.4.3
